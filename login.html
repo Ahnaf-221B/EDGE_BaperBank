@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class=" bg-gradient-to-r from-green-500 via-emerald-500 to-teal-500 font-serif">
+    <div class="p-[100px] flex flex-col justify-center items-center  ">
+      <div>
+        <img src="bank.png" alt="" class="w-[120px]" />
+      </div>
+      <h1 class="  m-[20px] font-bold text-[45px]">Welcome to Baper Bank</h1>
+      <div class=" w-full flex flex-col justify-center items-center">
+        <h3 class=" m-[10px] font-normal text-[20px]" id="accnum">Enter Account Number</h3>
+        <input class=" h-[40px] w-[30%] border-solid border-2 border-current  rounded-xl p-2 outline-none m-[10px]" id="num" />
+        <h3 class=" font-normal text-[20px] m-[10px]">Enter Pin Number</h3>
+        <input type="password" class=" h-[40px] w-[30%] border-solid border-2 border-current rounded-xl p-2 outline-none m-[10px]" id="pin"/>
+        <br />
+        <button class=" bg-slate-400 font-semibold px-6 py-1 text-[18px] rounded-full border-2 border-current " id="log-btn">Login</button>
+      </div>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>
